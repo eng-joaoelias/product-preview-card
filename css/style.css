@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.attribution {
+    font-size: 1vw;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container .conteudo-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    width: 38vw;
+    border-radius: 20px;
+}
+
+.container .conteudo-produto .foto-produto-desktop img {
+    width: 23vw;
+    border-radius: 20px 0 0 20px;
+}
+
+.container .conteudo-produto .foto-produto-mobile {
+    display: none;
+}
+
+.container .conteudo-produto .produto {
+    padding-left: 1.5vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .conteudo-produto .produto .categoria-produto {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+}
+
+.container .conteudo-produto .produto .categoria-produto .informacoes-produto .nome-produto {
+    margin-bottom: 0vh;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-size: 2.13vw;
+    font-weight: 800;
+    color: hsl(212, 21%, 14%);
+}
+
+.container .conteudo-produto .produto .informacoes-produto .descricao-produto {
+    margin-top: 2vh;
+}
+
+.container .conteudo-produto .produto .informacoes-produto .descricao-produto p {
+    font-size: 0.9vw;
+}
+
+.container .conteudo-produto .produto .informacoes-produto .precos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+}
+
+.container .conteudo-produto .produto .informacoes-produto .precos .preco-final p{
+    font-family: "Fraunces", serif;
+    font-size: 2vw;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.container .conteudo-produto .produto .informacoes-produto .precos .preco-original p {
+    font-size: 0.8vw;
+    text-decoration: line-through;
+}
+
+.container .conteudo-produto .produto .informacoes-produto .add-carrinho {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    height: 6vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9vw;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.container .conteudo-produto .produto .informacoes-produto .add-carrinho:hover {
+    cursor: pointer;
+    background-color: hsl(156, 42.2, 17.6);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 430px) {
+    .container .conteudo-produto .foto-produto-desktop {
+        display: none;
+    }
+
+    .container .conteudo-produto .foto-produto-mobile {
+        display: block;
+    }
+}
