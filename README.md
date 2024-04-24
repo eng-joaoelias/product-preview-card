@@ -41,13 +41,13 @@ Para executar este projeto localmente, siga estas etapas:
 1. Clone este repositório para o seu computador usando o seguinte comando:
 
     ```
-    git clone <url-do-repositorio>
+    git clone https://github.com/eng-joaoelias/product-preview-card
     ```
 
 2. Navegue até o diretório do projeto:
 
     ```
-    cd nome-do-diretorio
+    cd product-preview-card
     ```
 
 3. Abra o arquivo `index.html` em um navegador da web.
