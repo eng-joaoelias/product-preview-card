@@ -156,7 +156,13 @@ h1 {
     }
 
     .container .conteudo-produto .produto .categoria-produto {
+        padding-bottom: 0.1vh;
+        padding-top: 0.1vh;
         font-size: 2.5vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .nome-produto {
+        padding-bottom: 0.1vh;
     }
 
     .container .conteudo-produto .produto .informacoes-produto .nome-produto h1 {
