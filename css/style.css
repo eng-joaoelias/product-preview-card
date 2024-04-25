@@ -140,6 +140,7 @@ h1 {
 
     .container .conteudo-produto .foto-produto-mobile {
         display: block;
+        padding-bottom: 0vh;
     }
 
     .container .conteudo-produto .foto-produto-mobile img {
@@ -147,4 +148,20 @@ h1 {
         height: auto;
         border-radius: 20px 20px 0 0px;
     }
+
+    .container .conteudo-produto .produto {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .container .conteudo-produto .produto .categoria-produto {
+        font-size: 2.3vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .nome-produto h1 {
+        font-size: 9vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto 
 }
