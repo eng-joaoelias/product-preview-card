@@ -143,7 +143,8 @@ h1 {
     }
 
     .container .conteudo-produto .foto-produto-mobile img {
-        width: 23vw;
+        width: 100%;
+        height: auto;
         border-radius: 20px 20px 0 0px;
     }
 }
