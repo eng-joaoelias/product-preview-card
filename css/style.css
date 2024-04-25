@@ -64,7 +64,7 @@ body {
     margin-bottom: 0vh;
 }
 
-h1{
+h1 {
     font-family: "Fraunces", serif;
     font-size: 2.13vw;
     font-weight: 800;
@@ -88,7 +88,7 @@ h1{
     padding-bottom: 4vh;
 }
 
-.container .conteudo-produto .produto .informacoes-produto .precos .preco-final p{
+.container .conteudo-produto .produto .informacoes-produto .precos .preco-final p {
     font-family: "Fraunces", serif;
     font-size: 2vw;
     font-weight: 700;
@@ -123,11 +123,27 @@ h1{
 }
 
 @media screen and (max-width: 430px) {
+
+    .container .conteudo-produto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 90vw;
+        border-radius: 20px;
+    }
+
     .container .conteudo-produto .foto-produto-desktop {
         display: none;
     }
 
     .container .conteudo-produto .foto-produto-mobile {
         display: block;
+    }
+
+    .container .conteudo-produto .foto-produto-mobile img {
+        width: 23vw;
+        border-radius: 20px 20px 0 0px;
     }
 }
