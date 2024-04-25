@@ -129,7 +129,7 @@ h1 {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 45vh;
+        height: auto;
         width: 90vw;
         border-radius: 20px;
     }
@@ -153,12 +153,14 @@ h1 {
         display: flex;
         justify-content: left;
         align-items: flex-start;
+        padding-right: 5.5vw;
+        padding-left: 5.5vw;
     }
 
     .container .conteudo-produto .produto .categoria-produto {
         padding-bottom: 0.1vh;
         padding-top: 0.1vh;
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
 
     .container .conteudo-produto .produto .informacoes-produto .nome-produto {
@@ -170,6 +172,21 @@ h1 {
     }
 
     .container .conteudo-produto .produto .informacoes-produto .descricao-produto p {
+        font-size: 3.4vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-final .vlr-final {
+        font-size: 8.2vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-original .vlr-original {
         font-size: 3vw;
     }
+
+    .container .conteudo-produto .produto .informacoes-produto .add-carrinho {
+        width: auto;
+        height: 5vh;
+        border-radius: 6px;
+    }
+
 }
