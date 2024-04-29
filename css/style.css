@@ -211,7 +211,7 @@ h1 {
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
 
     .container .conteudo-produto {
         display: flex;
