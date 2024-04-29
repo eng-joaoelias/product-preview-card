@@ -143,6 +143,7 @@ h1 {
         height: auto;
         width: 90vw;
         border-radius: 20px;
+        margin-bottom: 1vh;
     }
 
     .container .conteudo-produto .foto-produto-desktop {
@@ -202,6 +203,91 @@ h1 {
 
     .container .conteudo-produto .produto .informacoes-produto .add-carrinho p {
         font-size: 3.4vw;
+    }
+
+    .attribution {
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .container .conteudo-produto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 65vw;
+        border-radius: 20px;
+        margin-bottom: 2vh;
+    }
+
+    .container .conteudo-produto .foto-produto-desktop {
+        display: none;
+    }
+
+    .container .conteudo-produto .foto-produto-mobile {
+        display: block;
+        padding-bottom: 1vh;
+    }
+
+    .container .conteudo-produto .foto-produto-mobile img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px 20px 0 0px;
+        object-fit: cover;
+    }
+
+    .container .conteudo-produto .produto {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-right: 5.5vw;
+        padding-left: 5.5vw;
+    }
+
+    .container .conteudo-produto .produto .categoria-produto {
+        padding-bottom: 0.1vh;
+        padding-top: 0.1vh;
+        font-size: 1.2vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .nome-produto {
+        padding-bottom: 0.1vh;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .nome-produto h1 {
+        font-size: 4.3vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .descricao-produto p {
+        font-size: 2.5vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-final .vlr-final {
+        font-size: 4.1vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-original .vlr-original {
+        font-size: 1.5vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .add-carrinho {
+        width: auto;
+        height: 5vh;
+        border-radius: 12px;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .add-carrinho p {
+        font-size: 2.2vw;
+    }
+
+    .container .conteudo-produto .produto .informacoes-produto .add-carrinho p .icone-compra img {
+        height: 2.1vh;
+        width: auto;
+        padding-right: 0.7vw;
     }
 
     .attribution {
