@@ -266,11 +266,11 @@ h1 {
         font-size: 2.5vw;
     }
 
-    .container .conteudo-produto .produto .informacoes-produto .precos .preco-final .vlr-final {
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-final p {
         font-size: 4.1vw;
     }
 
-    .container .conteudo-produto .produto .informacoes-produto .precos .preco-original .vlr-original {
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-original p {
         font-size: 1.5vw;
     }
 
