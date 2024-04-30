@@ -187,22 +187,12 @@ h1 {
         font-size: 3.4vw;
     }
 
-    /*.container .conteudo-produto .produto .informacoes-produto .precos .preco-final .vlr-final {
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-final p {
         font-size: 8.2vw;
-    }*/
-
-    .container .conteudo-produto .produto .informacoes-produto .precos .preco-final .vlr-final {
-        font-size: 2.3em;
     }
 
-    /*
-    .container .conteudo-produto .produto .informacoes-produto .precos .preco-original .vlr-original {
+    .container .conteudo-produto .produto .informacoes-produto .precos .preco-original p {
         font-size: 3vw;
-    }
-    */
-
-    .container .conteudo-produto .produto .informacoes-produto .precos .preco-original .vlr-original {
-        font-size: 1em;
     }
 
     .container .conteudo-produto .produto .informacoes-produto .add-carrinho {
